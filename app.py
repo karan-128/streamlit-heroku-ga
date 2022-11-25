@@ -13,13 +13,12 @@ def user_input_features():
 	
 values = {
 	'num1': num1,
-	'num2': num2
-}
+	'num2': num2 }
 	
 data = pd.DataFrame(values, index=[0])
 return data
 st.subheader('User Input parameters')
-st.write(df.to_dict())
+st.write(data.to_dict())
 
 def multiply(a,b):
 	return float(a)*float(b)
