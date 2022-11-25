@@ -1,3 +1,4 @@
+import streamlit as st
 import pandas as pd
 st.write("""
 # Graded Assignment 8 - Multiplication App
